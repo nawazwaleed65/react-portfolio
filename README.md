@@ -21,23 +21,21 @@ A modern, responsive portfolio website built with React, Vite, Tailwind CSS, and
 ## Installation
 
 1. **Clone the repository**  
-   ```bash
+  
    git clone https://github.com/yourusername/react-portfolio.git
    cd react-portfolio
-````
+
 
 2. **Install dependencies**
 
-   ```bash
    npm install
-   ```
+
 
 3. **Install Tailwind CSS**
 
-   ```bash
    npm install -D tailwindcss postcss autoprefixer
    npx tailwindcss init -p
-   ```
+
 
    import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
@@ -50,35 +48,31 @@ export default defineConfig({
     tailwindcss(),
   ],
 })
-   ```
+   
 
    Add Tailwind directives to `src/index.css`:
 
-   ```css
+
   @import "tailwindcss";
-   ```
+
 
 4. **Install Framer Motion**
 
-   ```bash
    npm install framer-motion
-   ```
+
 
 5. **Install Lucide React icons**
 
-   ```bash
    npm install lucide-react
-   ```
+
 
 6. **Start the development server**
 
-   ```bash
    npm run dev
-   ```
+
 
 ## Folder Structure
 
-```
 react-portfolio/
 ├─ public/
 ├─ src/
@@ -89,7 +83,7 @@ react-portfolio/
 ├─ tailwind.config.cjs
 ├─ vite.config.js
 ├─ package.json
-```
+
 
 ## Deployment
 
